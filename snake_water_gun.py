@@ -6,8 +6,8 @@
 
 import random
 computer=random.choice([1,0,-1]) # to choose a number randomly from the list
-you_str=input("Enter your choice: ")
-youDict={"s":1,"g":0,"w":-1}
+you_str=input("Enter your choice between s/S for Snake ,g/G for Gun and w/W for Water): ")
+youDict={"s":1,"g":0,"w":-1,"S":1,"G":0,"W":-1}
 
 you=youDict[you_str]
 
@@ -20,16 +20,16 @@ if(computer==you):
     
 else:
     if(computer==-1 and you==1):
-        print("You Win!")
+        print("You Won!")
     elif(computer==-1 and you==0):
         print("You Lose!")
     elif(computer==1 and you==-1):
         print("You Lose!")
     elif(computer==1 and you==0):
-        print("You Win!")
+        print("You Won!")
     elif(computer==0 and you==-1):
-        print("You Win!")
+        print("You Won!")
     elif(computer==-0 and you==1):
         print("You lose!")
     else:
-        print("Something went wrong")
+        print("Please a valid input here (Snake / Gun / Water)")
