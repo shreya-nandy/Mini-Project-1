@@ -11,7 +11,6 @@ Game Encoding :-
  Snake  -> 's' / 'S' ->  '1'            
  Gun    -> 'g' / 'G'  -> '0'            
  Water  -> 'w' / 'W' -> '-1'           
-
 The program uses this mapping to compare choices and decide the winner.
 
 How to Run the Game :-
@@ -19,12 +18,8 @@ How to Run the Game :-
 2. Save the source code as:
    'snake_water_gun.py'
 3. Open terminal / command prompt in the project folder
-4. Run the script:
-'sh
-python snake_water_gun.py
-'
+4. Run the script: python snake_water_gun.py
 5. Enter your choice when prompted:
-
    * 's' or 'S' → Snake
    * 'g' or 'G' → Gun
    * 'w' or 'W' → Water
@@ -42,8 +37,6 @@ You Won!
 Future Enhancements :-
 * Score tracking (best of 5 / best of 10)
 * Play again option (without restarting)
-* GUI version using Tkinter/Pygame
-* Input validation for unexpected characters
 
 Author
 Shreya Nandy
